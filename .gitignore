@@ -24,5 +24,6 @@ networktables.ini
 networktables.ini.bak
 CSGdatabase.json
 lib/
-
+/.project
+/.settings
 .attach_pid*
