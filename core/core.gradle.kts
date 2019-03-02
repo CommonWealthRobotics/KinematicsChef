@@ -11,12 +11,16 @@ object Verions {
 }
 
 dependencies {
-    api(group = "com.neuronrobotics", name = "BowlerScriptingKernel", version = "0.32.4") {
+    testImplementation(group = "com.neuronrobotics", name = "BowlerScriptingKernel", version = "0.32.4") {
         exclude(group = "org.slf4j", module = "slf4j-simple")
         exclude(group = "com.google.guava")
         exclude(group = "org.mockito")
     }
-
+    api(group = "com.neuronrobotics",  name ="java-bowler", version= "3.26.2") {
+        exclude(group = "org.slf4j", module = "slf4j-simple")
+        exclude(group = "com.google.guava")
+        exclude(group = "org.mockito")
+    }
     api(group = "org.apache.commons", name = "commons-math3", version = "3.6.1")
     api(group = "org.ejml", name = "ejml-all", version = "0.36")
 
