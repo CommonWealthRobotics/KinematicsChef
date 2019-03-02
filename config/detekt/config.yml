@@ -21,7 +21,7 @@ test-pattern: # Configure exclusions for test sources
   - 'ForEachOnRange'
 
 build:
-  maxIssues: 100
+  maxIssues: 200
   weights:
   # complexity: 2
   # LongParameterList: 1
